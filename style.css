@@ -1,0 +1,180 @@
+.collapse {
+	display: flex;
+    justify-content: center;
+}
+
+.navbar-brand {
+	color: #0fbf9d!important;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar-nav {
+	text-align: center;
+}
+
+.navbar {
+	position: sticky!important;
+    top: 0px;
+}
+
+.nav-item {
+	color: #0fbf9d!important;
+	font-weight: bold;
+}
+
+.navbar-light {
+	background-color: white!important;
+}
+
+.main-container {
+	display: flex;
+	margin-bottom: 20px;
+	margin-top: 20px;
+ 	flex-direction: row;
+  	justify-content: space-around;
+ 	height: 100%;
+ 	margin-bottom: 100px;
+ 	flex-wrap: wrap;
+}
+
+.first-container {
+	padding-top: 90px;
+	max-width: 360px;
+}
+
+.img-div {
+	max-width: 360px;
+}
+
+.colour {
+	color: grey;
+	font-size: 13px;
+}
+
+.app-img {
+	height: 95%;
+    width: 116%;
+	padding-top: 40px;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.konnct-img {
+	border-radius: 36px;
+}
+
+@media only screen and (max-width: 743px) {
+    .img-div{
+		width: 43%;
+		text-align: center;
+	}
+ 	.first-container{
+		text-align: center;
+		margin-bottom: 20px;
+	}
+}
+
+.pradan {
+	font-size: 14px !important;
+    font-weight: bold !important;
+}
+
+.btn {
+	background-color:#008269!important;
+}
+
+@media only screen and (min-width: 1010px) {
+    .navbar-collapse{
+		display: flex;
+		justify-content: flex-end;
+	}
+}
+
+.fa-lock {
+    font-size: 52px;
+    justify-content: center;
+    display: flex!important;
+    color: white;
+    background-color: black;
+    border: 2px solid white;
+    border-radius: 1000px;
+    width: 85px;
+    padding: 14px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.jumbo {
+	display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 80px;
+    text-align: center;
+}
+
+.last {
+	max-width: 576px;
+	padding-top: 50px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	padding: 40px;
+	cursor: pointer;
+}
+
+.icn {
+	font-size: 35px;
+	margin-right: 6%;
+	color: #008269de;
+}
+
+hr {
+	border: none;
+	height: 7px;
+	background-color:#008269de;
+}
+
+.learn-more {
+	color: #008269de;
+	margin-left: 20px;
+}
+
+.same-image-size {
+	height: 52px;
+    width: 122px;
+    margin: 10px; 
+}
+
+.second-img-container {
+	display: flex;
+	justify-content: center;
+	margin: 70px 0;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	font-size: 12px;
+    color: #80808099;
+    margin-bottom: 20px;
+}
+
+.containers {
+	max-width: 37%;
+	margin: 0px 20px;
+}
+
+.knnct {
+	width: 100px;
+	float: left;
+}
